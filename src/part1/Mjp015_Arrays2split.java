@@ -13,5 +13,6 @@ public class Mjp015_Arrays2split {
         System.out.println("Arr1 : "+Arrays.toString(arr1));
         System.out.println("Arr2 : "+Arrays.toString(arr2));
         System.out.println("Arr3 : "+Arrays.toString(arr3));
+        System.out.println("Lenght : "+arr2.length);
     }
 }
