@@ -8,9 +8,12 @@ public class Mjp029_StringBuilder {
 
 
         String st1="java";
+        String st3="java";
         StringBuilder sb2=new StringBuilder("java");
-
-       // if(st1==sb2) System.out.println("String ve StringBuilder == esit");
+        if(st1==st3) System.out.println("String 1 ve String 2 == esit");
+        if(st1.equals(st3)) System.out.println("String 1 equals String 2  esit");
+        else System.out.println("String 1 equals String 2  esit degildir");
+       //if(st1==sb2) System.out.println("String ve StringBuilder == esit");
 
         if(st1.equals(sb2)) System.out.println("String ve StringBuilder equals esit");
         else System.out.println("String ve StringBuilder equals esit degiller");
